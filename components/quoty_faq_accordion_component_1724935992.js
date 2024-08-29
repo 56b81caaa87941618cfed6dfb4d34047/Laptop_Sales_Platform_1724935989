@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What brands of laptops do you offer?", description: "We offer a wide range of popular laptop brands including Apple, Dell, HP, Lenovo, ASUS, and more. Our selection caters to various needs and budgets.", expanded: false },
+        { title: "Do you provide warranty on your laptops?", description: "Yes, all our laptops come with a standard manufacturer's warranty. We also offer extended warranty options for additional peace of mind.", expanded: false },
+        { title: "What is your return policy?", description: "We offer a 30-day return policy on all laptop purchases. If you're not satisfied with your purchase, you can return it for a full refund or exchange within this period, provided the laptop is in its original condition.", expanded: false },
+        { title: "Do you offer financing options?", description: "Yes, we provide various financing options to make your laptop purchase more affordable. These include installment plans and special credit offers. Please check our financing page for more details.", expanded: false }
       ]
     };
   },
