@@ -4,7 +4,7 @@ INSTRUCTION: It has two buttons: Contact button that directs to the contact page
 -->
 <template>
   <section
-    id="bottom-bar-component"
+    id="bottom-bar-component" style="min-height: 70px"
     class="fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950"
   >
     <div
